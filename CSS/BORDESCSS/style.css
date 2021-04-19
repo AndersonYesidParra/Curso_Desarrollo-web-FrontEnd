@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 10px 2px;
+    border-color: crimson hotpink gold lime;
+    
+}
+.discontinuo{
+    border-style: dashed;
+    border-width: thick;/*thin, medium, thick*/
+    border-color: #457b9d;
+}
+.solido{
+    border: solid red;
+    border-width: 5px;
+    border-radius: 20px;
+}
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
