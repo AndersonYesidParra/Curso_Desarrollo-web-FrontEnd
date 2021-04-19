@@ -1,0 +1,11 @@
+h1{
+    color: #560bad;
+}
+a:link, a:visited{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    margin: auto ;
+    text-align: center;
+}
+p{
+    color: cornsilk;
+    background-color: rgb(233, 19, 19);
+    padding: 15px;
+    border: 10px solid powderblue;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo_principal{
+    color: #d44083;
+    text-align: center;
+    margin: 10px;
+}
+h2{
+    color: rgb(117, 76, 145);
+}
+p{
+    color: #457b9d;
+}
+.tarjeta{
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 15px 115px;
+    padding: 15px;
+}
+.titulo{
+    color: #f72585;
+}
