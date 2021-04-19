@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso de CSS3</title>
+    <style>
+        img{
+            
+            border-radius: 5px 10px 5px  10px;
+            /*border-bottom-left-radius: 80px 30px;
+            border-bottom-right-radius: 0px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 80px 30px;*/
+            box-shadow: 10px 10px 5px rgb(143, 123, 123);
+        }
+        #ejemplo{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(125, 158, 125);
+            text-align: center;
+            box-shadow: 5px 5px 2px #888, -20px 0px 50px red;
+            text-shadow: 1px 3px 2px green;
+        }
+        #fondo{
+            background-image: url(img/fondo1.jpg), url(img/fondo2.jpg);
+            background-position: center bottom, left top;
+            background-repeat: no-repeat;
+            
+        }
+        #borderimage1{
+
+            border: 10px solid  transparent;
+            padding: 15px;
+            border-image: url(img/border.png) 30 stretch;
+
+        }
+        #borderimage2{
+
+            border: 10px solid  transparent;
+            padding: 15px;
+            border-image: url(img/border.png) 30 round;
+
+        }
+
+    </style>
+</head>
+<body>
+    <center style="padding: 50px;">
+    <div id="fondo">
+
+        <img src="img/wallhaven-4lzgkq.jpg" width="200" height="180"    alt="">
+        <br>
+        <br>
+        <div id="ejemplo">
+            Una caja de sombra como ejemplo.
+        </div>
+    
+    </div>
+    </center>
+    <p id="borderimage1">
+        Esto es un ejemplo con el borde entrelazado.
+    </p>
+    <p id="borderimage2">
+        Esto es un ejemplo con el borde estrecho.
+    </p>
+</body>
+</html>
